@@ -1,0 +1,33 @@
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Private/ScreenPass.ush"
+
+
+// =====================================================================================
+//
+// SHADER RESOURCES
+//
+// =====================================================================================
+
+Texture2D           InputTexture;
+Texture2D<float>    DepthTexture;
+Texture2D           UdColorTexture;
+Texture2D<float>    UdDepthTexture;
+	
+void MainPS(noperspective float4 UVAndScreenPos : TEXCOORD0, float4 SvPosition : SV_POSITION, out float4 OutColor : SV_Target0)
+{
+	float2 BufferUV = SvPosition.xy;
+	float fDepth = DepthTexture[BufferUV].x;
+	float fUdDepth = UdDepthTexture[BufferUV].x;
+	float4 Color = InputTexture[BufferUV];
+	float4 UdColor = float4(UdColorTexture[BufferUV].xyz,0.0f);
+	float fUdDepth_tmp = 1.0f - fUdDepth;
+
+	if(fUdDepth_tmp < fDepth || fUdDepth == 1.0f)
+	{
+		OutColor = Color;
+	}
+	else
+	{
+		OutColor = UdColor;
+	}
+}
