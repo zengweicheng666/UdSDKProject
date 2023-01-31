@@ -1,4 +1,4 @@
-# UdSDK - Plugin for Unreal Engine<p align="right">[中文](https://git.euclideon.cn:3000/wesley.zeng/UdSDKProject/src/branch/master/README(中文).md)</p>
+# UdSDK - Plugin for Unreal Engine<p align="right">[中文](https://github.com/zengweicheng666/UdSDKProject/blob/master/README(%E4%B8%AD%E6%96%87).md)</p>
 This project demonstrates the use of UdSDK with the Unreal Engine Real Time Development Platform.
 
 ```
