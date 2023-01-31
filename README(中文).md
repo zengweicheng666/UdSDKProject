@@ -1,4 +1,4 @@
-# UdSDK - 虚幻引擎插件<p align="right">[English](https://git.euclideon.cn:3000/wesley.zeng/UdSDKProject/src/branch/master/README.md)</p>
+# UdSDK - 虚幻引擎插件<p align="right">[English](https://github.com/zengweicheng666/UdSDKProject/blob/master/README.md)</p>
 此项目演示了如何在虚幻引擎实时开发平台上使用UdSDK。
 
 ```
