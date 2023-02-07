@@ -1,49 +1,78 @@
 # udUE SDK - 虚幻引擎插件<p align="right">[English](https://github.com/zengweicheng666/UdSDKProject/blob/master/README.md)</p>
 ## 一、前言
 __1.udUE SDK介绍__
-<br><br>udUE SDK是三维引擎C#、C++库，提供基于UE虚幻引擎框架，开放优立无限细节渲染技术底层接口，为具备深层次开发能力的开发者提供最底层核心，客户可以基于此从最底层开发面向游戏虚幻引擎的三维无限细节场景平台。
+<br><br>udUE SDK是三维引擎C#、C++库，提供基于UE虚幻引擎框架，开放优立无限细节渲染技术底层接口，为具备深层次开发能力的开发者提供最底层核心，客户可以基于此从最底层开发面向虚幻引擎的三维无限细节场景平台。
 <br><br><br>__2.它是如何工作的？__
-<br><br>udUE SDK底层是基于OpenGL的udSDK，udSDK开放了优立无限细节渲染技术底层接口，将udSDK、UE API和UE Slate封装成udUE SDK插件，加载该插件就可以在虚幻编辑器里应用udSDK所提供的底层核心。
+<br><br>**工作原理：** udUE SDK底层是基于OpenGL的udSDK，udSDK开放了优立无限细节渲染技术底层接口，将udSDK API、UE API和UE Slate封装成udUE SDK插件，加载该插件就可以在虚幻编辑器里应用udSDK所提供的底层核心。
+<br><br>**工作逻辑图：**
+<br>![image](./Images/Process.PNG)
 <br><br><br>__3.系统环境要求__
-<br><br>**操作系统：** Windows 10 64位版本或最新版的MacOS Ventura或Ubuntu 22.04
-<br><br>**处理器：** 四核Intel或AMD处理器，2.5 GHz或更快
-<br><br>**内存：** 8 GB内存
-<br><br>**显卡：** 兼容DirectX 11或DirectX 12或Metal 1.2的显卡
-<br><br>**Unreal Engine版本：** UdSDK在虚幻引擎4.27.1版本中测试过。此插件在虚幻引擎的其他版本中也可能正常运行，但并不能保证。请确保您已安装已成功测试的版本。
+<br><br>**系统版本要求：** Windows 10 64位版本或最新版的MacOS Ventura或Ubuntu 22.04
+<br><br>**系统配置要求：**
+<br>处理器：四核Intel或AMD处理器，2.5 GHz或更快
+<br>内存：8 GB内存
+<br>显卡：兼容DirectX 11或DirectX 12或Metal 1.2的显卡
+<br><br>**Unreal Engine版本要求：** UdSDK在虚幻引擎4.27.1版本中测试过。此插件在虚幻引擎的其他版本中也可能正常运行，但并不能保证。请确保您已安装已成功测试的版本。
 <br><br><br>__4.udUE SDK所涉及开发语言__
-<br><br>C++、C#
+<br><br>udUE SDK开发涉及到C++和C#两大基础语言，C++用于开发udUE SDK的API和用户界面，C#用于给udUE SDK配置环境。
 <br><br><br>__5.版本更新日志__
-<br><br>**udUE SDK当前版本：** 2.1.0
+<br><br>**udUE SDK的版本** v1.0.0
+<br>最新版本：v1.0.0
+<br>更新时间：2022-01-20
 <br><br><br>
-## 二、快速入门
+## 二、使用入门
 __1.注册udStream账号__
-__虚幻——UdSDK示例需要用到一个免费的优立账户，可从[这里](https://www.euclideon.com/udsdk/)获取权限__
-<br><br><br>__2.下载安装包和项目__
+<br><br>虚幻UdSDK示例需要用到一个免费的优立账户，可从[这里](https://www.euclideon.com/udsdk/)获取权限__
+<br><br><br>__2.整体架构__
+<br><br>__udUE SDK__
+<br><br>__ⅰ.基础功能模块__
+<br>__业务功能__
+<br>点云
+<br>兴趣点
+<br>Polygon
+<br>__通用__
+<br>核心
+<br>配置
+<br>日志
+<br>__工具集__
+<br>单例
+<br>线程池
+<br>Json解析
+<br>Json封装
+<br><br>__ⅱ.第三方库模块__
+<br>udSDK
+<br><br>__ⅲ.用户界面模块__
+<br>登录界面
+<br>主菜单界面
+<br>添加资产界面
+<br>快速添加界面
+<br><br><br>__3.代码下载__
 <br><br>使用您的许可证凭证在[这里](https://udstream.euclideon.com)下载并提取最后一个UdSDK安装包。您可以从[我们的官方网站](https://www.euclideon.com/free-development-resources/)获得一个免费的账户。
 <br><br>从[这里](https://git.euclideon.cn:3000/wesley.zeng/UdSDKProject.git)克隆虚幻UdSDK示例或下载其压缩包。
 ![image](./Images/download.PNG)
-<br><br><br>__3.转换项目版本__
+<br><br><br>__4.快速上手__
+<br><br>__ⅰ.转换项目版本__
 <br><br>右键*UdSDKProject.uproject*，选择*Switch Unreal Engine version*，选择版本4.27并转换。您将得到*UdSDKProject.sln*。
 ![image](./Images/switch1.PNG)
 ![image](./Images/switch2.PNG)
-<br><br><br>__4.导入插件__
+<br><br>__ⅱ.导入插件__
 <br><br>通过Microsoft Visual Studio打开*UdSDKProject.sln*，编译并调试该项目。之后会弹出一个虚幻引擎编辑器界面。现在您可在该编辑器内看到UdSDK插件。
 <br>![image](./Images/udsdk1.PNG)
-<br><br><br>__5.其他使用场景__
+<br><br>__ⅲ.其他使用场景__
 <br><br>您也可将UdSDK应用于您的项目当中。只需将该示例的*Plugins*文件夹下的插件UdSDK拷贝到您的项目中的*Plugins*文件夹下（如果没有*plugins*文件夹则需自行创建）。__
 <br><br>您还可将UdSDK应用于您所使用的某一版本的虚幻引擎。需将该示例*Plugins*文件夹下的插件UdSDK拷贝到目标版本的虚幻引擎目录下的*Plugins*文件夹下的*Marketplace*文件夹下（如果没有*Marketplace*文件夹则需自行创建）。之后可在虚幻编辑器的插件浏览器中找到UdSDK。__
 <br>![image](./Images/plugin1.PNG)
 ![image](./Images/plugin2.PNG)
-<br><br><br>__6.获取uds模型权限__
+<br><br>__ⅳ.获取uds模型权限__
 <br><br>您可以使用已注册的账户登录我们的服务器以获取Uds模型的使用权限。
 <br>![image](./Images/udsdk3.PNG)
-<br><br><br>__7.添加资产列表__
+<br><br>__ⅴ.添加资产列表__
 <br><br>根据需要在虚幻编辑器中添加一个资产列表。登录服务器后资产列表自动获取资产或点击刷新按钮刷新资产。
 ![image](./Images/assets.PNG)
-<br><br><br>__8.获取模型地址__
+<br><br>__ⅵ.获取模型地址__
 <br><br>**UDS：** 一个优立无限细节点云文件。您可通过指定url来为UDS演员分配一个具体的点云模型。
 <br>![image](./Images/uds.PNG)
-<br><br><br>__9.基础功能示例__
+<br><br>__ⅶ.基础功能__
 <br><br>1.添加演员：
 <br>添加一个UDS演员，这里使用url''https://models.euclideon.com.cn/udDemos/SouthEastQueeland/GoldCoast_20mm.uds''
 <br>![image](./Images/point_cloud.PNG)
@@ -80,7 +109,7 @@ __虚幻——UdSDK示例需要用到一个免费的优立账户，可从[这里
 <br>添加资产到关卡中。
 <br>![image](./Images/assetslist5.PNG)
 ![image](./Images/assetslist6.PNG)
-<br><br><br>__10.项目示例__
+<br><br><br>__5.项目示例__
 <br><br>**项目介绍：**
 "Youli"demo位于该项目目录下的Plugins\UdSDK\Content\Youli。该demo以展厅的形式展示了若干个通过UdSDK成功从服务器加载到UE4的uds模型，其中包括体育博物馆、采石场、雨林、高速公路、FZSW和黄金海岸。此外该demo还通屏幕上的滚动字幕介绍了我们公司。
 
@@ -117,7 +146,3 @@ __虚幻——UdSDK示例需要用到一个免费的优立账户，可从[这里
 <p align="center">采石场</p>
 
 <br>![image](./Images/mine.PNG)
-<br><br><br>__11.下载运行__
-<br><br>**说明：**
-<br>udUE SDK功能示例项目，是基于UE虚幻引擎运行的一个演示功能的系统。 主要用于开发人员学习了解udUE SDK主要功能的使用、用于业务人员了解体验udUE SDK具备的功能点。
-<br><br>**下载：** https://github.com/zengweicheng666/UdSDKProject
