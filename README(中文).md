@@ -5,7 +5,7 @@ __1.udUE SDK介绍__
 <br><br><br>__2.它是如何工作的？__
 <br><br>**工作原理：** udUE SDK底层是基于OpenGL的udSDK，udSDK开放了优立无限细节渲染技术底层接口，将udSDK API、UE API和UE Slate封装成udUE SDK插件，加载该插件就可以在虚幻编辑器里应用udSDK所提供的底层核心。
 <br><br>**工作逻辑图：**
-<br>![image](./Images/Process.PNG)
+<br>![image](./Images/process.PNG)
 <br><br><br>__3.系统环境要求__
 <br><br>**系统版本要求：** Windows 10 64位版本或最新版的MacOS Ventura或Ubuntu 22.04
 <br><br>**系统配置要求：**
