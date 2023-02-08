@@ -4,7 +4,30 @@
 **<font size=5>Login()</font>**
 
 <font size=5>返回类型：bool</font>
-## 退出
+## 登录状态
+**<font size=5>IsLogin()</font>**
 
+<font size=5>返回类型：bool</font>
+## 退出
+**<font size=5>Exit()</font>**
+
+<font size=5>返回类型：bool</font>
 ## 绑定委托到登录时
+**<font size=5>AddLoginDelegateLambda(const FunUdSDKDelegate& FuncDelegate)</font>**
+
+<font size=5>返回类型：FDelegateHandle</font>
+
+<font size=5>参数类型：</font>
+| 参数                        |         类型          | 属性  |                                             描述 |
+| --------------------------- | :-------------------: | :---: | -----------------------------------------------: |
+| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         仿函数（函数对象） |
+
 ## 绑定委托到退出时
+**<font size=5>AddExitDelegateLambda(const FunUdSDKDelegate& FuncDelegate)</font>**
+
+<font size=5>返回类型：FDelegateHandle</font>
+
+<font size=5>参数类型：</font>
+| 参数                        |         类型          | 属性  |                                             描述 |
+| --------------------------- | :-------------------: | :---: | -----------------------------------------------: |
+| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         仿函数（函数对象） |
