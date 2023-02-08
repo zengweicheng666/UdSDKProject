@@ -46,6 +46,7 @@ __1.注册udStream账号__
 <br>主菜单界面
 <br>添加资产界面
 <br>快速添加界面
+<br><br>__ⅳ.UE插件桥接模块__
 <br><br><br>__3.代码下载__
 <br><br>使用您的许可证凭证在[这里](https://udstream.euclideon.com)下载并提取最后一个UdSDK安装包。您可以从[我们的官方网站](https://www.euclideon.com/free-development-resources/)获得一个免费的账户。
 <br><br>从[这里](https://git.euclideon.cn:3000/wesley.zeng/UdSDKProject.git)克隆虚幻UdSDK示例或下载其压缩包。
@@ -64,17 +65,17 @@ __1.注册udStream账号__
 <br>![image](./Images/plugin1.PNG)
 ![image](./Images/plugin2.PNG)
 <br><br>__ⅳ.获取uds模型权限__
-<br><br>您可以使用已注册的账户登录我们的服务器以获取Uds模型的使用权限。
+<br><br>您可以使用已注册的账户登录我们的服务器以获取uds模型的使用权限。
 <br>![image](./Images/udsdk3.PNG)
 <br><br>__ⅴ.添加资产列表__
 <br><br>根据需要在虚幻编辑器中添加一个资产列表。登录服务器后资产列表自动获取资产或点击刷新按钮刷新资产。
 ![image](./Images/assets.PNG)
 <br><br>__ⅵ.获取模型地址__
-<br><br>**UDS：** 一个优立无限细节点云文件。您可通过指定url来为UDS演员分配一个具体的点云模型。
+<br><br>**UDS：** 一个优立无限细节点云文件。您可通过指定url来为UDS actor分配一个具体的点云模型。
 <br>![image](./Images/uds.PNG)
 <br><br>__ⅶ.基础功能__
-<br><br>1.添加演员：
-<br>添加一个UDS演员，这里使用url''https://models.euclideon.com.cn/udDemos/SouthEastQueeland/GoldCoast_20mm.uds''
+<br><br>1.添加actor：
+<br>添加一个UDS actor，这里使用url''https://models.euclideon.com.cn/udDemos/SouthEastQueeland/GoldCoast_20mm.uds''
 <br>![image](./Images/point_cloud.PNG)
 ![image](./Images/init.PNG)
 <br><br>2.移动操作示意：
