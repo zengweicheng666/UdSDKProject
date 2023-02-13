@@ -1,7 +1,7 @@
 # 设置
 ## 头文件：ObjectStorageSettings.h
 ## 类：UObjectStorageSettings
-<font size=5>该章节将介绍udUE SDK插件设置栏里的属性，以及加载和保存设置的方法。</font>
+<font size=5>该章节将介绍udUE SDK插件设置栏属性，以及加载和保存设置的方法。</font>
 
 ## udUE SDK插件设置栏属性
 | 属性                         |                          描述 |
