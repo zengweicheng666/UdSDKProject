@@ -26,7 +26,7 @@
 | Success                     |   bool &        | 必选 |                               返回UdJson解析成功是否成功 |
 
 ## 用UdJson Array创建UdJson（蓝图可调用）
-**<font size=5>CreateJsonArrayValue(TArray<UJsonValueWrapper*> Values)</font>**
+**<font size=5>CreateJsonArrayValue(TArray<UJsonValueWrapper * > Values)</font>**
 
 <font size=5>返回类型：UJsonValueWrapper *</font>
 
@@ -36,7 +36,7 @@
 | Values                      | TArray<UJsonValueWrapper*> | 必选 |                                      UdJson Array |
   
 ## 用UdJson Object创建UdJson（蓝图可调用）
-**<font size=5>CreateJsonObjectValue(TMap<FString, UJsonValueWrapper*> Values)</font>**
+**<font size=5>CreateJsonObjectValue(TMap<FString, UJsonValueWrapper * > Values)</font>**
 
 <font size=5>返回类型：UJsonValueWrapper *</font>
 
