@@ -1,5 +1,6 @@
 # 加载UdJson文件
 ## 头文件：JsonLoader.h
+## 类：CJsonLoader
 <font size=5>该章节将介绍加载UdJson文件的方法。</font>
 
 ## 加载UdJson文件
