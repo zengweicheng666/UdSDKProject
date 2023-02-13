@@ -17,7 +17,7 @@
 <font size=5>FJsonLoaderOptions结构体</font>
 | 属性                        |         类型          |                                            描述 |
 | --------------------------- | :-------------------: | -----------------------------------------------: |
-| Source                | EJsonLoaderSource |                                       UdJson加载方式 |
+| Source                | EJsonLoaderSource |                                          UdJson来源 |
 | From                  |           Fstring |                                          UdJson内容 |
 
 <font size=5>EJsonLoaderSource枚举</font>
@@ -25,4 +25,4 @@
 | ---------------------------  | ---------------------------: |
 | E_FILE                       |                    来源于文件 |
 | E_BUFFER                     |                    来源于缓存 |
-| E_URL                        |                    来源于URL |
+| E_URL                        |                    来源于URL  |
