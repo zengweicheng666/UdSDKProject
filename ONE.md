@@ -7,7 +7,7 @@
 **<font size=5>Login()</font>**
 
 <font size=5>返回类型：bool</font>
-## 登录状态
+## 判断是否登录
 **<font size=5>IsLogin()</font>**
 
 <font size=5>返回类型：bool</font>
