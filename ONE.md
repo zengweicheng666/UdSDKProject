@@ -1,5 +1,8 @@
 # 登录登出
+## 头文件：UdSDKFunctionLibraryr.h
+## 类：UUdSDKFunctionLibrary
 <font size=5>该章节将介绍登录和登出udUE SDK的方法。此外还讲解了如何绑定委托，才能在登录和登出udUE SDK时执行额外的操作。</font>
+
 ## 登录
 **<font size=5>Login()</font>**
 
