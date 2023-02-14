@@ -1,8 +1,8 @@
 # 登录登出
 ## 头文件：UdSDKFunctionLibraryr.h
 ## 类：UUdSDKFunctionLibrary
-<font size=5>该章节将介绍登录和登出udUE SDK的方法。此外还讲解了如何绑定委托，才能在登录和登出udUE SDK时执行额外的操作。</font>
-
+## 头文件：UdSDKFunctionLibrary.h
+<font size=5>该章节将介绍登录和登出udUE SDK的方法。此外还介绍了如何绑定委托，才能在登录和登出udUE SDK时执行额外的操作。</font>
 ## 登录
 **<font size=5>Login()</font>**
 
@@ -23,7 +23,7 @@
 <font size=5>参数类型：</font>
 | 参数                        |         类型          | 属性  |                                             描述 |
 | --------------------------- | :-------------------: | :---: | -----------------------------------------------: |
-| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         仿函数（函数对象） |
+| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         std::function<void()>对象 |
 
 ## 绑定委托到登出时
 **<font size=5>AddExitDelegateLambda(const FunUdSDKDelegate& FuncDelegate)</font>**
@@ -33,4 +33,4 @@
 <font size=5>参数类型：</font>
 | 参数                        |         类型          | 属性  |                                             描述 |
 | --------------------------- | :-------------------: | :---: | -----------------------------------------------: |
-| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         仿函数（函数对象） |
+| FuncDelegate                |const FunUdSDKDelegate&| 必选  |                                         std::function<void()>对象 |
