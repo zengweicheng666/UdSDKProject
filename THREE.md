@@ -101,7 +101,7 @@
 | Value                  | FString | 必选  |                                         字符串 |
   
 ## 给UdJson添加字段（蓝图可调用）
-**<font size=5>AddField(FString FieldName, UJsonValueWrapper* const& Value, bool& Success)</font>**
+**<font size=5>AddField(FString FieldName, UJsonValueWrapper * const& Value, bool& Success)</font>**
 
 <font size=5>返回类型：UJsonValueWrapper *</font>
 
