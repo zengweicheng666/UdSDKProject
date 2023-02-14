@@ -133,14 +133,14 @@
 <font size=5>返回类型：bool</font>
   
 ## 比较UdJson是否相同（蓝图可调用）
-**<font size=5>Equals(UJsonValueWrapper* const& Other)</font>**
+**<font size=5>Equals(UJsonValueWrapper * const& Other)</font>**
 
 <font size=5>返回类型：bool</font>
   
 <font size=5>参数类型：</font>
 | 参数                        |         类型          | 属性  |                                             描述 |
 | --------------------------- | :-------------------: | :---: | -----------------------------------------------: |
-| Other                  | UJsonValueWrapper* const& | 必选  |                                         另一个UdJson |
+| Other                  | UJsonValueWrapper * const& | 必选  |                                         另一个UdJson |
 
 ## 查找UdJson是否包含目标字段（蓝图可调用）
 **<font size=5>HasField(FString Pattern, EJsonValueType FilterType = EJsonValueType::None)</font>**
