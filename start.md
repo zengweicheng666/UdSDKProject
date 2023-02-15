@@ -5,4 +5,4 @@ udUE SDK为具备深层次开发能力的开发者提供最底层核心，用户
 
 # 技术选型
 <font size=5>&emsp;&emsp;udUE SDK底层是基于OpenGL的udSDK，udSDK开放了优立无限细节渲染技术底层接口。
-我们使用UE虚幻引擎的UE Slate框架搭建了一系列UI界面，让用户更加便捷地体验到udUE SDK的底层核心功能</font>
+我们使用UE虚幻引擎的UE Slate框架搭建了一系列UI界面，让用户更加便捷地体验到udUE SDK的底层核心功能。</font>
