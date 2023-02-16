@@ -15,6 +15,6 @@ __1.udUE SDK介绍__
 <br><br><br>__4.udUE SDK所涉及开发语言__
 <br><br>udUE SDK开发涉及到C++和C#两大基础语言，C++用于开发udUE SDK的API和用户界面，C#用于给udUE SDK配置环境。
 <br><br><br>__5.版本更新日志__
-<br><br>**udUE SDK的版本** v1.0.0
+<br><br>**udUE SDK的版本**
 <br>最新版本：v1.0.0
 <br>更新时间：2022-01-20
