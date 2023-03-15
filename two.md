@@ -1,6 +1,6 @@
 # 使用入门
 __1.注册udStream账号__
-<br><br>虚幻UdSDK示例需要用到一个免费的优立账户，可从[这里](https://www.euclideon.com/udsdk/)获取权限__
+<br><br>虚幻UdSDK示例需要用到一个免费的优立账户，可从[这里](https://www.euclideon.com/udsdk/)获取权限
 <br><br><br>__2.整体架构__
 <br><br>__udUE SDK__
 <br><br>__ⅰ.基础功能模块__
