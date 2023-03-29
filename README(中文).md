@@ -48,7 +48,7 @@ __1.注册udStream账号__
 <br>快速添加界面
 <br><br>__ⅳ.UE插件桥接模块__
 <br><br><br>__3.代码下载__
-<br><br>使用您的许可证凭证在[这里](https://www.euclideon.com/udsdk.html)下载并提取最后一个UdSDK安装包。您可以从[我们的官方网站](https://www.euclideon.com/)获得一个免费的账户。
+<br><br>使用您的许可证凭证在[这里](https://www.euclideon.com/udsdk.html)下载并提取最后一个UdSDK安装包。您可以从[我们的官方网站](https://www.euclideon.com)获得一个免费的账户。
 <br><br>从[这里](https://git.euclideon.cn:3000/wesley.zeng/UdSDKProject.git)克隆虚幻UdSDK示例或下载其压缩包。
 ![image](./Images/download.PNG)
 <br><br><br>__4.快速上手__
